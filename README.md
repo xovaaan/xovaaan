@@ -13,10 +13,10 @@
 Building **[Formzed](https://www.formzed.com)**: forms and AI customer research in one self-serve tool. A team sends a form, our AI interviews the people who answer, and they get a report with exact numbers in minutes.
 
 ```text
-forms/         39 designs, logic, payments, uploads, multi-language, end-to-end encrypted answers
-ai-research/   voice and chat interviews in 18 spoken languages, themes, quotes, reports, slides
-automations/   answers to Slack, Gmail, Google Sheets, HubSpot, Stripe and more
-medusa/        ask your responses anything, read and rank every CV from a job application form
+forms/         39 designs, logic, payments, encrypted answers
+ai-research/   voice + chat interviews, 18 languages, reports
+automations/   Slack, Gmail, Sheets, HubSpot, Stripe and more
+medusa/        ask your data anything, rank every CV
 ```
 
 Delaware C-Corp, started August 2026. Part of **NVIDIA Inception**, the **Claude Startups Program** and the **ElevenLabs startup grant**.
