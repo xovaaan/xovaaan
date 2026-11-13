@@ -1,107 +1,49 @@
-<h1 align="center">Samiur Xovan</h1>
-<h3 align="center">CEO @ Formzed | Full Stack Developer | AI Builder</h3>
+<h1 align="center">Samiul Basir</h1>
+<p align="center"><b>Founder & CEO of <a href="https://www.formzed.com">Formzed</a></b> · Full-stack developer · Chattogram, Bangladesh</p>
 
 <p align="center">
-  Building AI-native SaaS products 🚀 <br/>
-  Next.js • TypeScript • Supabase • Prisma • AI Systems
+  <a href="https://www.formzed.com">formzed.com</a> ·
+  <a href="https://www.linkedin.com/in/samiul-basir-a29352243/">LinkedIn</a> ·
+  <a href="https://scholar.google.com/citations?user=YfLX1voAAAAJ">Google Scholar</a>
 </p>
 
 ---
 
-## 👋 About Me
+## What I'm building
 
-I’m the Founder & CEO of **Formzed** — an AI-native form building platform.
+**[Formzed](https://www.formzed.com)** puts forms and AI customer research in one self-serve tool. A team sends a form, our AI interviews the people who answer, and they get a report with exact numbers in minutes.
 
-I build production-grade SaaS products using:
+- **Forms**: 39 designs, logic, payments, file uploads, multi-language, end-to-end encrypted answers
+- **AI Research**: voice and chat interviews in 18 spoken languages, themes, quotes, reports and slides
+- **Automations**: send answers to Slack, Gmail, Google Sheets, HubSpot, Stripe and more
+- **Medusa**: ask your responses anything, including reading and ranking every CV from a job application form
 
-- ⚡ Next.js (App Router)
-- 🔷 TypeScript
-- 🧠 AI APIs (Gemini, Claude, OpenAI)
-- 🗄️ Supabase + PostgreSQL
-- 🔐 Auth systems & role-based permissions
-- 📊 AI dashboards & analytics platforms
+Formzed is a Delaware C-Corp, started in August 2026, and part of **NVIDIA Inception**, the **Claude Startups Program** and the **ElevenLabs startup grant**.
 
-I focus on:
-- AI-first product architecture
-- Clean UI/UX systems
-- Automation workflows
-- Startup execution & growth
+## Research
 
----
+I publish how we test Formzed's AI, with the data:
 
-## 🚀 Current Focus
+- [Keyword Stuffing and Hidden Text in CV Screening: A Benchmark of LLM-Based CV Matching and Keyword Search in an Open-Source Applicant Tracking System](https://doi.org/10.5281/zenodo.23987580) (2026, Zenodo preprint) · [article](https://www.formzed.com/blog/keyword-stuffing-benchmark)
+- [CodePilot: A Multi-Agent Agentic Coding Assistant with Hierarchical Orchestration, Adaptive Execution Modes, and Zero-Cost LLM Access](https://doi.org/10.5281/zenodo.19170957) (2026, Zenodo preprint)
+- More benchmarks on the [Formzed blog](https://www.formzed.com/blog): CV matching, fairness, prompt injection, AI interviewer accuracy
 
-- Scaling **Formzed**
-- Building AI-native enterprise tools
-- Multi-model AI integrations
-- Agentic workflows & AI analytics
+## Stack I ship with
 
----
+**Frontend**: React, TypeScript, Vite, Tailwind CSS, shadcn/ui, Framer Motion
+**Backend**: Supabase (Postgres, row-level security, Deno edge functions), Cloudflare Workers and R2, Stripe and Stripe Connect
+**AI**: Claude API, structured outputs, voice (ElevenLabs, Deepgram), agents and tool use, evals and benchmarks
 
-## 🧠 Tech Stack
+## Side projects
 
-### Frontend
-- Next.js 14+
-- TypeScript
-- Tailwind CSS
-- ShadCN UI
-- Framer Motion
-- GSAP
-
-### Backend
-- Supabase
-- PostgreSQL
-- Prisma ORM
-- UploadThing
-- Resend
-- REST + Edge Functions
-
-### AI & Automation
-- Gemini API
-- Claude API
-- Prompt Engineering
-- AI Agents
-- RAG Systems
-- Workflow Automation
+| Project | What it does |
+|---|---|
+| [CodePilot](https://github.com/xovaaan/CodePilot) | Multi-agent AI coding assistant for VS Code, bring your own key |
+| [ContextMind](https://github.com/xovaaan/ContextMind) | Memory layer that compresses conversations and gives an AI the right context |
+| [HyperVoice](https://github.com/xovaaan/HyperVoice) | Speak to write text ([live](https://hypervoiceai.vercel.app)) |
+| [Flownote](https://github.com/xovaaan/Flownote) | AI meeting note taker |
+| [Hirelock](https://github.com/xovaaan/Hirelock) | Hiring made easy ([live](https://hirelock.vercel.app)) |
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=radical" />
-</p>
-
----
-
-## 🏗️ Featured Projects
-
-### 🧠 Formzed
-AI-native form builder with analytics and AI chat over responses.
-
-### 🤖 HumanDesk
-AI workspace assistant.
-
-### 📊 DataHire
-AI-powered hiring analytics platform.
-
-### ⚖️ Counsyl
-AI legal research & contract assistant.
-
----
-
-## 🌍 Connect With Me
-
-- LinkedIn: https://linkedin.com/in/YOUR_LINK
-- Twitter/X: https://x.com/YOUR_HANDLE
-- Website: https://www.formzed.com
-
----
-
-<p align="center">
-  Building the future of AI-native software.
-</p>
+<p align="center">Want to try Formzed or talk about AI research tools? Find me on <a href="https://www.linkedin.com/in/samiul-basir-a29352243/">LinkedIn</a>.</p>
