@@ -1,49 +1,57 @@
-<h1 align="center">Samiul Basir</h1>
-<p align="center"><b>Founder & CEO of <a href="https://www.formzed.com">Formzed</a></b> · Full-stack developer · Chattogram, Bangladesh</p>
-
 <p align="center">
-  <a href="https://www.formzed.com">formzed.com</a> ·
-  <a href="https://www.linkedin.com/in/samiul-basir-a29352243/">LinkedIn</a> ·
-  <a href="https://scholar.google.com/citations?user=YfLX1voAAAAJ">Google Scholar</a>
+  <img src="./assets/terminal.svg" width="100%" alt="Terminal: Samiul Basir, Founder and CEO of Formzed. Formzed puts forms and AI customer research in one self-serve tool." />
 </p>
 
----
+<p align="center">
+  <a href="https://www.formzed.com"><img src="https://img.shields.io/badge/formzed.com-0d1117?style=for-the-badge&logoColor=56d364&labelColor=0d1117&color=0d1117" alt="formzed.com" /></a>
+  <a href="https://www.linkedin.com/in/samiul-basir-a29352243/"><img src="https://img.shields.io/badge/linkedin-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff&color=0d1117" alt="LinkedIn" /></a>
+  <a href="https://scholar.google.com/citations?user=YfLX1voAAAAJ"><img src="https://img.shields.io/badge/google_scholar-0d1117?style=for-the-badge&logo=googlescholar&logoColor=e3b341&color=0d1117" alt="Google Scholar" /></a>
+</p>
 
-## What I'm building
+### `$ cat ./now.md`
 
-**[Formzed](https://www.formzed.com)** puts forms and AI customer research in one self-serve tool. A team sends a form, our AI interviews the people who answer, and they get a report with exact numbers in minutes.
+Building **[Formzed](https://www.formzed.com)**: forms and AI customer research in one self-serve tool. A team sends a form, our AI interviews the people who answer, and they get a report with exact numbers in minutes.
 
-- **Forms**: 39 designs, logic, payments, file uploads, multi-language, end-to-end encrypted answers
-- **AI Research**: voice and chat interviews in 18 spoken languages, themes, quotes, reports and slides
-- **Automations**: send answers to Slack, Gmail, Google Sheets, HubSpot, Stripe and more
-- **Medusa**: ask your responses anything, including reading and ranking every CV from a job application form
+```text
+forms/         39 designs, logic, payments, uploads, multi-language, end-to-end encrypted answers
+ai-research/   voice and chat interviews in 18 spoken languages, themes, quotes, reports, slides
+automations/   answers to Slack, Gmail, Google Sheets, HubSpot, Stripe and more
+medusa/        ask your responses anything, read and rank every CV from a job application form
+```
 
-Formzed is a Delaware C-Corp, started in August 2026, and part of **NVIDIA Inception**, the **Claude Startups Program** and the **ElevenLabs startup grant**.
+Delaware C-Corp, started August 2026. Part of **NVIDIA Inception**, the **Claude Startups Program** and the **ElevenLabs startup grant**.
 
-## Research
+### `$ ls ./research`
 
-I publish how we test Formzed's AI, with the data:
+I publish how we test Formzed's AI, with the data.
 
-- [Keyword Stuffing and Hidden Text in CV Screening: A Benchmark of LLM-Based CV Matching and Keyword Search in an Open-Source Applicant Tracking System](https://doi.org/10.5281/zenodo.23987580) (2026, Zenodo preprint) · [article](https://www.formzed.com/blog/keyword-stuffing-benchmark)
-- [CodePilot: A Multi-Agent Agentic Coding Assistant with Hierarchical Orchestration, Adaptive Execution Modes, and Zero-Cost LLM Access](https://doi.org/10.5281/zenodo.19170957) (2026, Zenodo preprint)
-- More benchmarks on the [Formzed blog](https://www.formzed.com/blog): CV matching, fairness, prompt injection, AI interviewer accuracy
-
-## Stack I ship with
-
-**Frontend**: React, TypeScript, Vite, Tailwind CSS, shadcn/ui, Framer Motion
-**Backend**: Supabase (Postgres, row-level security, Deno edge functions), Cloudflare Workers and R2, Stripe and Stripe Connect
-**AI**: Claude API, structured outputs, voice (ElevenLabs, Deepgram), agents and tool use, evals and benchmarks
-
-## Side projects
-
-| Project | What it does |
+| paper | |
 |---|---|
-| [CodePilot](https://github.com/xovaaan/CodePilot) | Multi-agent AI coding assistant for VS Code, bring your own key |
-| [ContextMind](https://github.com/xovaaan/ContextMind) | Memory layer that compresses conversations and gives an AI the right context |
-| [HyperVoice](https://github.com/xovaaan/HyperVoice) | Speak to write text ([live](https://hypervoiceai.vercel.app)) |
-| [Flownote](https://github.com/xovaaan/Flownote) | AI meeting note taker |
-| [Hirelock](https://github.com/xovaaan/Hirelock) | Hiring made easy ([live](https://hirelock.vercel.app)) |
+| [Keyword Stuffing and Hidden Text in CV Screening: A Benchmark of LLM-Based CV Matching and Keyword Search in an Open-Source Applicant Tracking System](https://doi.org/10.5281/zenodo.23987580) | 2026 · Zenodo · [article](https://www.formzed.com/blog/keyword-stuffing-benchmark) |
+| [CodePilot: A Multi-Agent Agentic Coding Assistant with Hierarchical Orchestration, Adaptive Execution Modes, and Zero-Cost LLM Access](https://doi.org/10.5281/zenodo.19170957) | 2026 · Zenodo |
 
----
+More benchmarks on the [Formzed blog](https://www.formzed.com/blog): CV matching, fairness, hidden-text injection, AI interviewer accuracy.
 
-<p align="center">Want to try Formzed or talk about AI research tools? Find me on <a href="https://www.linkedin.com/in/samiul-basir-a29352243/">LinkedIn</a>.</p>
+### `$ cat ./stack.json`
+
+```json
+{
+  "frontend": ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "Framer Motion"],
+  "backend":  ["Supabase", "Postgres + RLS", "Deno edge functions", "Cloudflare Workers", "R2", "Stripe Connect"],
+  "ai":       ["Claude API", "structured outputs", "agents + tool use", "ElevenLabs", "Deepgram", "evals"]
+}
+```
+
+### `$ ls ./side-projects`
+
+| repo | what it does |
+|---|---|
+| [`CodePilot`](https://github.com/xovaaan/CodePilot) | Multi-agent AI coding assistant for VS Code, bring your own key |
+| [`ContextMind`](https://github.com/xovaaan/ContextMind) | Memory layer that compresses conversations and gives an AI the right context |
+| [`HyperVoice`](https://github.com/xovaaan/HyperVoice) | Speak to write text · [live](https://hypervoiceai.vercel.app) |
+| [`Flownote`](https://github.com/xovaaan/Flownote) | AI meeting note taker |
+| [`Hirelock`](https://github.com/xovaaan/Hirelock) | Hiring made easy · [live](https://hirelock.vercel.app) |
+
+```text
+samiul@formzed:~$ echo "want to try Formzed or talk AI research tools? -> linkedin"
+```
