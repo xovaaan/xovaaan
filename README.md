@@ -45,7 +45,7 @@ More benchmarks on the [Formzed blog](https://www.formzed.com/blog): CV matching
 ### `$ gh stats`
 
 <p align="center">
-  <img src="./assets/stats.svg?v=202611231256" width="100%" alt="GitHub stats for xovaaan: contributions, streak, public repos, stars, followers and top languages, updated daily." />
+  <img src="./assets/stats.svg?v=202611241350" width="100%" alt="GitHub stats for xovaaan: contributions, streak, public repos, stars, followers and top languages, updated daily." />
 </p>
 
 ### `$ ls ./side-projects`
